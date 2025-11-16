@@ -1,1 +1,4 @@
 # AzureFrontierGirls-Challenge
+<h1>PhishDetect AI</h1>
+PhishDetect AI é um agente  voltado a detecção autómatica de possiveis emails suspeitos no meio corporativo, com foco na identificação de possíveis tentativas de phishing. Ele examina o contéudo da mensagem, observando urgência excessiva, erros gramaticais, tom emocional incomum, pedidos inadequados e links ou domínios diferentes do remetente declarado. A partir dessa análise, o agente gera uma avaliação objetiva do risco, expressa em porcentagem, explica quais fatores contribuiram para essa avaliação e recomenda ações de prevenção. 
+ Quando a probabilidade de phishing ultrapassa 50%, o agente oferece ao usuario a abertura de um alerta ao setor de TI, oferecendo automaticamente uma frase pronta para encaminhamento, informando o nome do usuário e o e-mail que recebeu a mensagem suspeita e encaminhando o corpo do e-mail.
