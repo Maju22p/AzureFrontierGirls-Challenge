@@ -24,5 +24,6 @@ O PhishDetect AI tem como objetivo auxiliar na mitigação de tentativas de phis
 <li>Oferecer o encaminhamento automático para o departamento de TI, caso uma alta porcentagem de risco</li>
 <li>Pergunta automática ao usuário sobre envio ao TI quando o risco é alto</li>
 <li>Geração de alerta estruturado para o setor de TI, incluindo nome, e-mail e corpo da mensagem suspeita</li>
+<li>Registrar logs  </li>
 <br>
 </div>
