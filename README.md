@@ -104,7 +104,7 @@ Repositório oficial, hospedagem e documentação do projeto.
 > Inclua também o corpo completo do e-mail original.
 >
 > Se o usuário disser que não deseja encaminhar, finalize apenas com orientações, sem gerar nenhuma mensagem externa.
-
+![fluxograma de funcionalidade](images/fluxograma.png)
 ---
 
 ##  **Fluxo da Solução**
