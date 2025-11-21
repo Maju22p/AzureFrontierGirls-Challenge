@@ -84,7 +84,7 @@ Automatizar o envio do e-mail para o setor de TI quando o usuário autoriza.
 
 ### **Azure SQL Database** *(opcional — usado somente em testes)*
 
-Fornece armazenamento relacional, caso haja necessidade de registrar dados ou históricos.
+Fornece armazenamento relacional, caso haja necessidade de registrar dados ou históricos.(opcional pra registro/futuras melhorias)
 
 ### **GitHub**
 
