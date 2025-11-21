@@ -130,7 +130,10 @@ Repositório oficial, hospedagem e documentação do projeto.
 ## Configurações do agente
 ![gif das configurações do agente](configagente.gif)
 ## Execução do agente
+![gif execução do agente parte 1](exec1.gif)
+![gif execução do agente parte 2](exec2.gif)
 
+---
 ##  **Referências**
 
 * [https://www.malwarebytes.com/pt-br/phishing](https://www.malwarebytes.com/pt-br/phishing)
