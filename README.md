@@ -129,9 +129,15 @@ Repositório oficial, hospedagem e documentação do projeto.
 ![foto menu de criação de agentes](criacaoagente.png)
 ## Configurações do agente
 ![gif das configurações do agente](configagente.gif)
+
+---
 ## Execução do agente
 ![gif execução do agente parte 1](exec1.gif)
 ![gif execução do agente parte 2](exec2.gif)
+![resultado da execução do agente](resultado.png)
+
+---
+## Log threads da execução
 
 ---
 ##  **Referências**
@@ -140,7 +146,8 @@ Repositório oficial, hospedagem e documentação do projeto.
 * [https://prodest.es.gov.br/entenda-o-que-e-phishing-e-adote-medidas-para-evita-lo](https://prodest.es.gov.br/entenda-o-que-e-phishing-e-adote-medidas-para-evita-lo)
 * [https://www.cloudflare.com/pt-br/learning/email-security/how-to-prevent-phishing/](https://www.cloudflare.com/pt-br/learning/email-security/how-to-prevent-phishing/)
 * [https://www.mcafee.com/blogs/pt-br/internet-security/exemplos-de-e-mail-de-phishing-como-reconhecer-e-mails-de-phishing/](https://www.mcafee.com/blogs/pt-br/internet-security/exemplos-de-e-mail-de-phishing-como-reconhecer-e-mails-de-phishing/)
-
+* (https://learn.microsoft.com/en-us/azure/?product=popular)
+*  https://learn.microsoft.com/en-us/azure/ai-foundry/?view=foundry-classic
 ---
 
 
