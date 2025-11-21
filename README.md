@@ -126,9 +126,9 @@ Repositório oficial, hospedagem e documentação do projeto.
 
 ---
 ## Criação do Agente
-
+![foto menu de criação de agentes](criacaoagente.png)
 ## Configurações do agente
-
+![gif das configurações do agente](configagente.gif)
 
 
 ##  **Referências**
