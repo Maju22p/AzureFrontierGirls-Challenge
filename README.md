@@ -1,6 +1,6 @@
 
 
-# 🟦 **PhishDetect AI – Azure Frontier Girls Challenge**
+#  **PhishDetect AI – Azure Frontier Girls Challenge**
 
 O **PhishDetect AI** é um agente desenvolvido para identificar automaticamente possíveis tentativas de phishing dentro de ambientes corporativos. Ele analisa o conteúdo textual do e-mail, detectando sinais suspeitos como urgência exagerada, erros gramaticais, tom emocional incomum, pedidos fora do padrão e links/dominios que não correspondem ao remetente declarado.
 
@@ -9,7 +9,7 @@ Quando o risco ultrapassa **50%**, o agente pergunta ao usuário se deseja encam
 
 ---
 
-## ✨ **Objetivos**
+##  **Objetivos**
 
 O *PhishDetect AI* tem como objetivo auxiliar empresas a identificar e mitigar possíveis tentativas de phishing através de:
 
@@ -22,7 +22,7 @@ O *PhishDetect AI* tem como objetivo auxiliar empresas a identificar e mitigar p
 
 ---
 
-## ✨ **Funcionalidades Principais**
+##  **Funcionalidades Principais**
 
 * **Classificação percentual de risco** (ex.: *87% — possível phishing*)
 * **Resumo explicativo dos fatores encontrados**
@@ -40,7 +40,7 @@ O *PhishDetect AI* tem como objetivo auxiliar empresas a identificar e mitigar p
 
 ---
 
-## ✨ **Entrada e Saída**
+## **Entrada e Saída**
 
 ### **Entrada**
 
@@ -55,7 +55,7 @@ O *PhishDetect AI* tem como objetivo auxiliar empresas a identificar e mitigar p
 
 ---
 
-## ✨ **Configuração do Ambiente e Ferramentas Utilizadas**
+##  **Configuração do Ambiente e Ferramentas Utilizadas**
 
 ### **Modelo Utilizado**
 
@@ -71,7 +71,7 @@ O *PhishDetect AI* tem como objetivo auxiliar empresas a identificar e mitigar p
 
 ---
 
-## ✨ **Tecnologias**
+##  **Tecnologias**
 
 ### **Azure AI Foundry (GPT-4o Mini)**
 
@@ -92,7 +92,7 @@ Repositório oficial, hospedagem e documentação do projeto.
 
 ---
 
-## ✨ **Instrução do Agente (Prompt Principal)**
+##  **Instrução do Agente (Prompt Principal)**
 
 > Você é um agente que analisa e-mails suspeitos. Sempre avalie o e-mail recebido, gere uma porcentagem de risco entre 0% e 100%, avaliando sinais de phishing como urgência, erros gramaticais, linguagem emocional exagerada, pedidos incomuns de ação, links suspeitos ou inconsistentes com o domínio do remetente. Explique rapidamente o motivo da pontuação e dê recomendações de segurança.
 >
@@ -107,7 +107,7 @@ Repositório oficial, hospedagem e documentação do projeto.
 
 ---
 
-## ✨ **Fluxo da Solução**
+##  **Fluxo da Solução**
 
 1. O usuário fornece o texto do e-mail ao agente.
 2. O agente analisa o conteúdo, detecta sinais suspeitos e calcula o risco.
@@ -124,7 +124,7 @@ Repositório oficial, hospedagem e documentação do projeto.
 
 ---
 
-## ✨ **Referências**
+##  **Referências**
 
 * [https://www.malwarebytes.com/pt-br/phishing](https://www.malwarebytes.com/pt-br/phishing)
 * [https://prodest.es.gov.br/entenda-o-que-e-phishing-e-adote-medidas-para-evita-lo](https://prodest.es.gov.br/entenda-o-que-e-phishing-e-adote-medidas-para-evita-lo)
