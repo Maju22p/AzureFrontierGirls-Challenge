@@ -24,5 +24,33 @@ O PhishDetect AI tem como objetivo auxiliar na mitigação de tentativas de phis
 <li>Oferecer o encaminhamento automático para o departamento de TI, caso uma alta porcentagem de risco</li>
 <li>Pergunta automática ao usuário sobre envio ao TI quando o risco é alto</li>
 <li>Geração de alerta estruturado para o setor de TI, incluindo nome, e-mail e corpo da mensagem suspeita</li>
+<li>Interface simples para colar texto do e-mail e receber a análise</li>
 <br>
 </div>
+<h2> Entrada e saída</h2>
+Entrada:
+<ul><li>Texto do e-mail (remetente, assunto, corpo).</li></ul>
+Saída:
+<ul><li>Percentual de risco + fatores + recomendações.</li>
+<li>(Opcional) Geração da mensagem para o TI caso o usuário aceite.</li></ul>
+<h2>Configuração do Ambiente</h2>
+<h3>Modelo utilizado</h3>
+  GPT-4o Mini, escolhido por:
+<ul>
+<li>baixo custo</li>
+<li>boa velocidade</li>
+<li>disponibilidade estável na região East US 2.</li>
+</ul>
+<h3>Tipo de implantação</h3>
+Global Standard
+<h2>Instrução do Agente (Prompt do Sistema)</h2>
+“Você é um agente que analisa e-mails suspeitos. Sempre avalie o e-mail recebido, gere uma porcentagem de risco entre 0% e 100%, avaliando sinais de phishing como urgência, erros gramaticais, linguagem emocional exagerada, pedidos incomuns de ação, links suspeitos ou inconsistentes com o domínio do remetente. Explique rapidamente o motivo da pontuação e dê recomendações de segurança.
+Se o risco for maior que 50%, pergunte ao usuário se ele deseja encaminhar ao TI.
+Se o usuário disser que sim, peça o nome completo e o e-mail. Depois gere:
+<i>“[nome] ([e-mail]) recebeu um possível phishing de [remetente] e solicita verificação do setor de TI.”</i>
+Inclua também o corpo completo do e-mail original.
+Se o usuário disser que não deseja encaminhar, finalize apenas com orientações, sem gerar nenhuma mensagem externa.”
+<h2>Testes realizados</h2>
+<h3>Teste 1</h3>
+<i>Email totalmente phishing</i>
+Entrada: 
