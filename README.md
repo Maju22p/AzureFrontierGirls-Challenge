@@ -139,6 +139,8 @@ Repositório oficial, hospedagem e documentação do projeto.
 ---
 ## Log threads da execução
 
+![gif ](logs.gif)
+
 ---
 ##  **Referências**
 
